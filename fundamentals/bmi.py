@@ -10,8 +10,3 @@ def bmi(weight, height):
         return "Overweight"
     if imc > 30:
         return "Obese"
-
-
-height = 1.20
-weight = 40
-print(bmi(weight, height))

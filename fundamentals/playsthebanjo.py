@@ -4,7 +4,3 @@ def are_you_playing_banjo(name):
         return name + " plays the banjo"
     else:
         return name + " does not play banjo"
-
-
-name = "richard"
-print(are_you_playing_banjo(name))

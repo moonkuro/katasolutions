@@ -4,6 +4,3 @@ def count_sheeps(sheep):
         if n == True:
             sheepTrue += n
     return sheepTrue
-        
-sheep = [True, True, True, False, False, True]
-print(count_sheeps(sheep))

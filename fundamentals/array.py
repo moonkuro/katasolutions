@@ -14,7 +14,3 @@ def smash(words):
         else:
             resultado += " " + palavra
     return resultado
-
-print(smash)
-    
-smash(["luvas","gay","aspas"])
