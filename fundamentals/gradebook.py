@@ -7,15 +7,7 @@ def get_grade(s1, s2, s3):
         return "D"
     elif 70 <= media_final < 80:
         return "C"
-    elif media_final <= 90:
+    elif 80 <= media_final < 90:
         return "B"
-    elif media_final <= 100:
+    elif 90 <= media_final <= 100:
         return "A"
-
-s1 = 70
-s2 = 70
-s3 = 100    
-print(get_grade(s1, s2, s3))
-media_final = (s1 + s2 + s3) / 3
-print(media_final)
-    
